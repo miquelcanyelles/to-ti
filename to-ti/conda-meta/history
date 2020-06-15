@@ -1,0 +1,48 @@
+==> 2020-06-15 10:44:34 <==
+# cmd: /Users/mikicanyelles/miniconda3/bin/conda create --prefix=./to-ti
+# conda version: 4.8.3
+==> 2020-06-15 10:46:56 <==
+# cmd: /Users/mikicanyelles/miniconda3/bin/conda install numpy
+# conda version: 4.8.3
++conda-forge/noarch::pip-20.1.1-py_1
++conda-forge/noarch::wheel-0.34.2-py_1
++conda-forge/osx-64::ca-certificates-2020.4.5.2-hecda079_0
++conda-forge/osx-64::certifi-2020.4.5.2-py38h32f6830_0
++conda-forge/osx-64::libblas-3.8.0-16_openblas
++conda-forge/osx-64::libcblas-3.8.0-16_openblas
++conda-forge/osx-64::libcxx-10.0.0-h1af66ff_2
++conda-forge/osx-64::libffi-3.2.1-h4a8c4bd_1007
++conda-forge/osx-64::libgfortran-4.0.0-2
++conda-forge/osx-64::liblapack-3.8.0-16_openblas
++conda-forge/osx-64::libopenblas-0.3.9-h3d69b6c_0
++conda-forge/osx-64::llvm-openmp-10.0.0-h28b9765_0
++conda-forge/osx-64::ncurses-6.1-h0a44026_1002
++conda-forge/osx-64::numpy-1.18.5-py38h1f821a2_0
++conda-forge/osx-64::openssl-1.1.1g-h0b31af3_0
++conda-forge/osx-64::python-3.8.3-cpython_hd5f0129_0
++conda-forge/osx-64::python_abi-3.8-1_cp38
++conda-forge/osx-64::readline-8.0-hcfe32e1_0
++conda-forge/osx-64::setuptools-47.1.1-py38h32f6830_0
++conda-forge/osx-64::sqlite-3.30.1-h93121df_0
++conda-forge/osx-64::tk-8.6.10-hbbe82c9_0
++conda-forge/osx-64::xz-5.2.5-h0b31af3_0
++conda-forge/osx-64::zlib-1.2.11-h0b31af3_1006
+# update specs: ['numpy']
+==> 2020-06-15 10:47:16 <==
+# cmd: /Users/mikicanyelles/miniconda3/bin/conda install --prefix /Users/mikicanyelles/git/to-ti/to-ti pylint -y
+# conda version: 4.8.3
++conda-forge/noarch::mccabe-0.6.1-py_1
++conda-forge/noarch::six-1.15.0-pyh9f0ad1d_0
++conda-forge/noarch::toml-0.10.1-pyh9f0ad1d_0
++conda-forge/osx-64::astroid-2.4.2-py38h32f6830_0
++conda-forge/osx-64::isort-4.3.21-py38h32f6830_1
++conda-forge/osx-64::lazy-object-proxy-1.4.3-py38h64e0658_2
++conda-forge/osx-64::pylint-2.5.2-py38h32f6830_0
++conda-forge/osx-64::wrapt-1.11.2-py38h64e0658_0
+# update specs: ['pylint']
+==> 2020-06-15 12:42:21 <==
+# cmd: /Users/mikicanyelles/miniconda3/bin/conda install pyyaml
+# conda version: 4.8.3
++conda-forge/osx-64::pyyaml-5.3.1-py38h64e0658_0
++conda-forge/osx-64::yaml-0.2.5-h0b31af3_0
+# update specs: ['pyyaml']

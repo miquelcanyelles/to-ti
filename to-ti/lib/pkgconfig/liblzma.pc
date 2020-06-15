@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/mikicanyelles/git/to-ti/to-ti
+exec_prefix=/Users/mikicanyelles/git/to-ti/to-ti
+libdir=/Users/mikicanyelles/git/to-ti/to-ti/lib
+includedir=/Users/mikicanyelles/git/to-ti/to-ti/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

@@ -1,0 +1,56 @@
+{
+  "build": "h3d69b6c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "openblas >=0.3.9,<0.3.10.0a0"
+  ],
+  "depends": [
+    "libgfortran >=4.0.0,<5.0.0.a0",
+    "llvm-openmp >=9.0.1"
+  ],
+  "extracted_package_dir": "/Users/mikicanyelles/miniconda3/pkgs/libopenblas-0.3.9-h3d69b6c_0",
+  "features": "",
+  "files": [
+    "lib/libopenblas.0.dylib",
+    "lib/libopenblasp-r0.3.9.dylib"
+  ],
+  "fn": "libopenblas-0.3.9-h3d69b6c_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/mikicanyelles/miniconda3/pkgs/libopenblas-0.3.9-h3d69b6c_0",
+    "type": 1
+  },
+  "md5": "9bda2500486675ff0b01e5a7174503cc",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/Users/mikicanyelles/miniconda3/pkgs/libopenblas-0.3.9-h3d69b6c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenblas.0.dylib",
+        "path_type": "softlink",
+        "sha256": "1d12dda28e2135009a7ba6b8791b6668b4dbe1d743e583233305e054dc811e42",
+        "size_in_bytes": 63102460
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.9.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/openblas_1583121982549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "1d12dda28e2135009a7ba6b8791b6668b4dbe1d743e583233305e054dc811e42",
+        "sha256_in_prefix": "ede2f9fd74ad54dc1a1be33dd6a330d05c2ae94429cdad51e458d1289a46e93e",
+        "size_in_bytes": 63102460
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f1d77a5331d8a419dc295a5d0138d4fa9bd8fe20967aae8b3213a480c4685fd1",
+  "size": 8765581,
+  "subdir": "osx-64",
+  "timestamp": 1583123264484,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libopenblas-0.3.9-h3d69b6c_0.tar.bz2",
+  "version": "0.3.9"
+}

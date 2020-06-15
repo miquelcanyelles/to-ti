@@ -1,0 +1,199 @@
+{
+  "build": "py38h64e0658_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/Users/mikicanyelles/miniconda3/pkgs/lazy-object-proxy-1.4.3-py38h64e0658_2",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/AUTHORS.rst",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/lazy_object_proxy/__init__.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/simple.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/slots.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lazy_object_proxy/_version.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/cext.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/lazy_object_proxy/compat.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/simple.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/slots.py",
+    "lib/python3.8/site-packages/lazy_object_proxy/utils.py"
+  ],
+  "fn": "lazy-object-proxy-1.4.3-py38h64e0658_2.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/mikicanyelles/miniconda3/pkgs/lazy-object-proxy-1.4.3-py38h64e0658_2",
+    "type": 1
+  },
+  "md5": "a8957514ab39b46b13696b8262bcac34",
+  "name": "lazy-object-proxy",
+  "package_tarball_full_path": "/Users/mikicanyelles/miniconda3/pkgs/lazy-object-proxy-1.4.3-py38h64e0658_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "f027828ce0db6b44bc51cccbc9904f8693bf27a34c67d1f3fdf135035b8d7bd6",
+        "sha256_in_prefix": "f027828ce0db6b44bc51cccbc9904f8693bf27a34c67d1f3fdf135035b8d7bd6",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5bed4a3641f66ec48db8ded236a295f33d87d029315f3617655854cf0d70c540",
+        "sha256_in_prefix": "5bed4a3641f66ec48db8ded236a295f33d87d029315f3617655854cf0d70c540",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6365fadf07056d04f8c88df32a9445c1fa40fd30a907a53bf4c3e644608c253d",
+        "sha256_in_prefix": "6365fadf07056d04f8c88df32a9445c1fa40fd30a907a53bf4c3e644608c253d",
+        "size_in_bytes": 5088
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "01eeb6128fda5c22beca1619c4e8d0a3512f34293b4d640d21449a492f52c058",
+        "sha256_in_prefix": "01eeb6128fda5c22beca1619c4e8d0a3512f34293b4d640d21449a492f52c058",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1e273806bec7caa425a3f5818962b9f14bc4a200a75a79f4d13387274314aa97",
+        "sha256_in_prefix": "1e273806bec7caa425a3f5818962b9f14bc4a200a75a79f4d13387274314aa97",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy-1.4.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "50d1fe15007e8fff1b62a3f3de00fdd241ef682e364d0a98d2d8474a76da6b49",
+        "sha256_in_prefix": "50d1fe15007e8fff1b62a3f3de00fdd241ef682e364d0a98d2d8474a76da6b49",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a4cab1cd3a05db80eecce96d9be43c9d9de33435ce69241c26688d02b754ae55",
+        "sha256_in_prefix": "a4cab1cd3a05db80eecce96d9be43c9d9de33435ce69241c26688d02b754ae55",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "114ca5995f4601536af4fb182260bbd1c92a1bef38543b32832827c4eaf28a92",
+        "sha256_in_prefix": "114ca5995f4601536af4fb182260bbd1c92a1bef38543b32832827c4eaf28a92",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb7cf59a67f3fdff3073d49de530bb3ee690b28581356c25e73e56719f41bfb2",
+        "sha256_in_prefix": "bb7cf59a67f3fdff3073d49de530bb3ee690b28581356c25e73e56719f41bfb2",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f429519b4f2c5d59f256c60ae27ea8a111b7703057544f6c040e03fbe952ee57",
+        "sha256_in_prefix": "f429519b4f2c5d59f256c60ae27ea8a111b7703057544f6c040e03fbe952ee57",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/simple.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bac99841aabe57ad4a99608fdb0b68cf2d72df1f6dea0a7c62fd9b7b55127995",
+        "sha256_in_prefix": "bac99841aabe57ad4a99608fdb0b68cf2d72df1f6dea0a7c62fd9b7b55127995",
+        "size_in_bytes": 7768
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/slots.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "51ad840d456ac74cc15899f5d74182f2bee318f4985a4f10068a21ea38cec84d",
+        "sha256_in_prefix": "51ad840d456ac74cc15899f5d74182f2bee318f4985a4f10068a21ea38cec84d",
+        "size_in_bytes": 15216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b51eab1d0a7d8704898252fe71a3760fd3a4cd2246bfa267b8e3848332b019f6",
+        "sha256_in_prefix": "b51eab1d0a7d8704898252fe71a3760fd3a4cd2246bfa267b8e3848332b019f6",
+        "size_in_bytes": 760
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "00b6a1659b1af99e19a177b688322ce1a8e2742396ebde56e6578e5a28d66047",
+        "sha256_in_prefix": "00b6a1659b1af99e19a177b688322ce1a8e2742396ebde56e6578e5a28d66047",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/cext.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/lazy-object-proxy_1584921817758/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3a58f52d5dc6133041b18938eae3b2fac8b3124e94d519b52417f5a4908a59e6",
+        "sha256_in_prefix": "bc6a66fe81e0b1fac678e4e5317aa637605a3f73cde8f174ac370b3f9df47e9c",
+        "size_in_bytes": 33044
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/compat.py",
+        "path_type": "hardlink",
+        "sha256": "0d8dc76cac1badb78a63ab645d13512c9d60a3a1c96fc1d4c16ab2c374f983f8",
+        "sha256_in_prefix": "0d8dc76cac1badb78a63ab645d13512c9d60a3a1c96fc1d4c16ab2c374f983f8",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/simple.py",
+        "path_type": "hardlink",
+        "sha256": "82e69ccbcfd06c9781b3bbd7a4f3d5a035640cd5ce67ceb1c92d5db4078abceb",
+        "sha256_in_prefix": "82e69ccbcfd06c9781b3bbd7a4f3d5a035640cd5ce67ceb1c92d5db4078abceb",
+        "size_in_bytes": 8216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/slots.py",
+        "path_type": "hardlink",
+        "sha256": "f438a559420d49ca59376e8dc2646db1c4ed6aa684c2d09f228ae22eae4dcf6e",
+        "sha256_in_prefix": "f438a559420d49ca59376e8dc2646db1c4ed6aa684c2d09f228ae22eae4dcf6e",
+        "size_in_bytes": 11359
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lazy_object_proxy/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c785d3aed969fe60d358efc43aafc82c83afd90a25f112cc9d19b933c97739f5",
+        "sha256_in_prefix": "c785d3aed969fe60d358efc43aafc82c83afd90a25f112cc9d19b933c97739f5",
+        "size_in_bytes": 291
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cca9b0feead22b60a78216eb1c95b9cf5c25e43da068c734d3e015b3c0c8784c",
+  "size": 26843,
+  "subdir": "osx-64",
+  "timestamp": 1584921960726,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lazy-object-proxy-1.4.3-py38h64e0658_2.tar.bz2",
+  "version": "1.4.3"
+}
