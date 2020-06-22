@@ -3,6 +3,9 @@ import os, sys
 from tinydb import TinyDB, Query
 from datetime import datetime, timedelta
 
+
+
+
 def config(config_file='config.yaml'):
     configuration = yaml.safe_load(open(config_file))
 
@@ -32,6 +35,13 @@ db_tasks = db.table('tasks')
 db_time  = db.table('time')
 
 def hello(db_tasks=db_tasks, db_time=db_time, time='now'):
+    """
+    Function for taking the first input time. It registers in the database (time table)
+    the current time or accepts a custom one by passing an HH:MM string as the 'time'
+    variable.
+
+    Deactivated feature: It also prints all the tasks that have not been completed.
+    """
     if time == 'now':
         time = datetime.now().time().strftime('%H:%M')
     day  = datetime.today().strftime('%d-%m-%Y')
@@ -44,11 +54,14 @@ def hello(db_tasks=db_tasks, db_time=db_time, time='now'):
         }
     )
 
-    DueToday = Query()
-
-    print(db_tasks.search(DueToday.due == str(datetime.today().strftime('%d-%m-%Y'))))
+    #DueToday = Query()
+    #print(db_tasks.search(DueToday.due == str(datetime.today().strftime('%d-%m-%Y'))))
 
 def pause(db_tasks=db_tasks, db_time=db_time, time='now'):
+    """
+    Function for registering the time for starting a pause in the time table.
+    It also accepts a custom time through the time variable.
+    """
     if time == 'now':
         time = datetime.now().time().strftime('%H:%M')
     day  = datetime.today().strftime('%d-%m-%Y')
@@ -69,7 +82,7 @@ def resume(db_tasks=db_tasks, db_time=db_time, time='now'):
     db_time.insert(
         { 'day'   : day,
         'time'    : time,
-        'type'    : 'pause',
+        'type'    : 'resume',
         'task_id' : None
         }
     )
@@ -93,7 +106,7 @@ def goodbye(db_tasks=db_tasks, db_time=db_time, time='now'):
 
     times = db_time.search(DueToday.day == str(datetime.today().strftime('%d-%m-%Y')))
     loc = int(str(time).find(':'))
-    time_sum = datetime(1,1,1,int(time[:loc]), int(time[loc+1:]))
+    time_sum = timedelta(hours=int(time[:loc]), minutes=int(time[loc+1:]))
 
     types = []
     for time in times:
@@ -122,10 +135,13 @@ def goodbye(db_tasks=db_tasks, db_time=db_time, time='now'):
     for time in times:
         loc = int(str(time['time']).find(':'))
         if time['type'] in ('hello', 'resume'):
+            print('resta')
             time_sum = time_sum - timedelta(hours=int(time['time'][:loc]), minutes=int(time['time'][loc+1:]))
 
         elif time['type'] == 'pause':
+            print('suma')
             time_sum = time_sum + timedelta(hours=int(time['time'][:loc]), minutes=int(time['time'][loc+1:]))
+
 
     #if time_sum > timedelta(days=1):
     #    time_sum = time_sum - timedelta(days=1)
